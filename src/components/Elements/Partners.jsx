@@ -256,6 +256,41 @@ class Partners extends React.Component {
                         </div>
                     </div>
                 </div>
+
+
+
+
+
+                <div className="section-full p-t20 p-b80 bg-white inner-page-padding">
+                    <div className="container">
+                    {/* <h3 className="font-weight-600" >Ils Nous<span style={{color:'#75BF44'}}> Font Confiance</span></h3> */}
+                    <h2 className="font-weight-600" style={{textAlign:'center'}}> 
+                    <span style={{color:'#75BF44'}}> PHARMACIES  </span></h2>
+                        <div className="section-content ">
+                            <div className="row">
+                                <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
+                                     <h4>PHARMACIE DES LAGUNES </h4>
+                                </div>
+                                <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
+                                <h4>PHARMACIE METROPOLE 
+                                </h4>
+                                </div>
+                                <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
+                                <h4>PHARMACIE DU CANAL 
+                                </h4>
+                                </div>
+                                <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
+                                <h4>PHARMACIE D'ABOBO</h4>
+                                </div>
+                                
+                               
+                                
+                              
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </>
         );
     }
