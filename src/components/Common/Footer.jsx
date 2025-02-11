@@ -126,7 +126,7 @@ class Footer extends React.Component {
                         <div className="container">
                             <div className="row">
                                 <div className="mt-footer-bot-center">
-                                  <a href='https://www.instagram.com/brightmedia.tech/'>   <span className="copyrights-text">© 2024 Triadco. Designed By Bright Media</span></a>
+                                  <a href='http://brightmedia.tech/'>   <span className="copyrights-text">© 2025 Triadco. Designed By Bright Media</span></a>
                                 </div>
                             </div>
                         </div>
