@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import ClientsLogo from './ClientsLogo';
 
 const images = [
     require('./../../images/allimges/about1.webp'),
@@ -50,11 +51,23 @@ class Partners extends React.Component {
         };
         return (
             <>
-                <div className="section-full p-t80 p-b80 bg-white inner-page-padding">
+                <div className="section-full p-t10 p-b10 bg-white inner-page-padding" >
                     <div className="container">
-                    <h3 className="font-weight-600" >Ils Nous<span style={{color:'#75BF44'}}> Font Confiance</span></h3>
-                    <h2 className="font-weight-600" style={{textAlign:'center'}}>INSTITUTIONS <span style={{color:'#75BF44'}}> & ONG </span></h2>
-                        <div className="section-content ">
+                    {/* <h3 className="font-weight-600" >Ils Nous<span style={{color:'#75BF44'}}> Font Confiance</span></h3> */}
+                    
+
+                    <div className="section-head">
+                            <div className="mt-separator-outer separator-left" style={{display:'flex',justifyContent:'center'}}>
+                                <div className="mt-separator">
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">ILS NOUS   </span>  FONT CONFIANCE</h2>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="section-content " id='laptopId'
+                        style={{ display: window.innerWidth < 768 ? 'none' : 'block' }}>
+                        <h2 className="font-weight-600" style={{textAlign:'center'}}>INSTITUTIONS <span style={{color:'#75BF44'}}> & ONG </span></h2>
                             <div className="row">
                                 <div className="col-lg-3 col-md-3 ">
                                     <div className="m-about ">
@@ -164,7 +177,7 @@ class Partners extends React.Component {
 
 
 
-                <div className="section-full p-t80 p-b80 bg-white inner-page-padding">
+                <div className="section-full p-t10 p-b10 bg-white inner-page-padding" id='laptopId' style={{ display: window.innerWidth < 768 ? 'none' : 'block' }}>
                     <div className="container">
                     {/* <h3 className="font-weight-600" >Ils Nous<span style={{color:'#75BF44'}}> Font Confiance</span></h3> */}
                     <h2 className="font-weight-600" style={{textAlign:'center'}}>CLINIQUES 
@@ -260,8 +273,14 @@ class Partners extends React.Component {
 
 
 
+ <ClientsLogo/>
+
+
+
 
                 <div className="section-full p-t20 p-b80 bg-white inner-page-padding">
+
+                    
                     <div className="container">
                     {/* <h3 className="font-weight-600" >Ils Nous<span style={{color:'#75BF44'}}> Font Confiance</span></h3> */}
                     <h2 className="font-weight-600" style={{textAlign:'center'}}> 
@@ -269,18 +288,42 @@ class Partners extends React.Component {
                         <div className="section-content ">
                             <div className="row">
                                 <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
-                                     <h4>PHARMACIE DES LAGUNES </h4>
+                                     {/* <h4>PHARMACIE DES LAGUNES </h4> */}
+                                     <div className="section-content">
+                                         
+                                            <div className="m-b0">
+                                                <ol className="list-num-count">
+                                                    <li>PHARMACIE DES LAGUNES</li>
+                                                </ol>
+                                                
+                                            </div>
+                                        </div>
                                 </div>
                                 <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
-                                <h4>PHARMACIE METROPOLE 
-                                </h4>
+                                
+                                <div className="m-b0">
+                                                <ol className="list-num-count">
+                                                    <li>PHARMACIE METROPOLE </li>
+                                                </ol>
+                                                
+                                            </div>
                                 </div>
                                 <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
-                                <h4>PHARMACIE DU CANAL 
-                                </h4>
+                                
+                                <div className="m-b0">
+                                                <ol className="list-num-count" >
+                                                    <li >PHARMACIE DU CANAL  </li>
+                                                </ol>
+                                                
+                                            </div>
                                 </div>
                                 <div className="col-lg-3 col-md-3 " style={{textAlign:'center'}}>
-                                <h4>PHARMACIE D'ABOBO</h4>
+                                <div className="m-b0">
+                                                <ol className="list-num-count">
+                                                    <li>PHARMACIE D'ABOBO  </li>
+                                                </ol>
+                                                
+                                            </div>
                                 </div>
                                 
                                
