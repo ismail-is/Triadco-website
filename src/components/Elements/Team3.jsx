@@ -3,39 +3,47 @@ import { NavLink } from 'react-router-dom';
 
 const teamMembers = [
     {
-        image: require('./../../images/our-team4/pic1.png'),
+        image: require('./../../images/team/HASSAN.jpg'),
         membername: 'Hassan Damoush',
         position: 'Directeur Général',
         call:'(+225)078999969',
         email:'hdaamoush@triadci.com'
     },
+   
     {
-        image: require('./../../images/our-team4/pic2.png'),
-        membername: 'Fabrice Kokra',
-        position: 'Comptable et Finance',
-         call:'(+225)0707207719',
-        email:'fabricekokra@triadci.com'
-    },
-    {
-        image: require('./../../images/our-team4/pic3.png'),
+        image: require('./../../images/team/FAYAD.jpg'),
         membername: 'Ayoub Fayad',
         position: 'Directeur Commercial',
          call:'(+225)0758373333',
         email:'afayad@triadci.com'
     },
     {
-        image: require('./../../images/our-team4/pic3.png'),
-        membername: 'Amine Fakih',
-        position: 'Chef de projet',
-         call:'(+225)0758202741',
-        email:'fakihamines@gmail.com'
+        image: require('./../../images/team/CARINE.jpg'),
+        membername: 'Carine Sea',
+        position: 'Community & Public Relation',
+         call:'(+225)0104040452',
+        email:': info@triadci.com'
     },
     {
-        image: require('./../../images/our-team4/pic3.png'),
-        membername: 'Valerie Ouedraodo',
-        position: 'Chargé de vente',
-         call:'(+225)0747499860',
-        email:'valeriereusite@gmail.com'
+        image: require('./../../images/team/PATRICK.jpg'),
+        membername: 'Patrick Koffi',
+        position: 'Responsable Administratif & Relation Publique',
+         call:'(+225)0104040451',
+        email:'info@triadci.com'
+    },
+    {
+        image: require('./../../images/team/KOUAME.jpg'),
+        membername: 'Kouame Yao Narcisse Yoanne',
+        position: 'Gestionnaire De Stock',
+         call:'(+225)0104040447',
+        email:'info@triadci.com'
+    },
+    {
+        image: require('./../../images/team/VALERIE.jpg'),
+        membername: 'Ouedraogo Valerie',
+        position: 'Responsable De Vente',
+         call:'(+225)0104040448',
+        email:'info@triadci.com'
     }
 ]
 

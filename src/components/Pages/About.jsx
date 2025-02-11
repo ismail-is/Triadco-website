@@ -8,6 +8,7 @@ import Team3 from './../Elements/Team3';
 import AboutSummary from './../Elements/AboutSummary';
 import Faq from '../Elements/Faq';
 import Tabs from './Tabs';
+import Partners from '../Elements/Partners';
 
 var bnrimg = require('./../../images/allimges/About.jpg');
 
@@ -21,6 +22,7 @@ class About extends React.Component {
                     <Banner title="À propos de nous" pagename="About Us" bgimage={bnrimg}/>
                     <About4 />
                     <Tabs/>
+                    <Partners/>
                     {/* <Faq/> */}
                     {/* <Specialization4 /> */}
                     <Team3 />
