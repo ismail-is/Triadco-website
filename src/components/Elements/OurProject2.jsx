@@ -273,8 +273,12 @@ class OurProject2 extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-center">
                                 <div className="mt-separator">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Nos</span> produits</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Solution </span> d’Imagerie</h2>
+                                    
                                 </div>
+                                <p className="text-uppercase sep-line-one ">Triad Co fournit des produits et des solutions pour
+Radiologie et leurs accessoires et aide à la planification
+nouveauCentres de radiologie</p>
                             </div>
                         </div>
                         {/* TITLE END */}

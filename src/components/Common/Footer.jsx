@@ -16,7 +16,8 @@ class Footer extends React.Component {
         
         return (
             <>
-                <footer className="site-footer footer-large  footer-dark	footer-wide">
+                {/* <footer className="site-footer footer-large  footer-dark	footer-wide"> */}
+                <footer className="site-footer footer-large  	footer-wide" style={{backgroundColor:'#999999'}}>
                     <div className="container call-to-action-wrap bg-no-repeat bg-center" style={{ backgroundImage: 'url('+bgimage+')' }}>
                         <div className="p-a30 bg-primary ">
                             <div className="row">
@@ -26,7 +27,7 @@ class Footer extends React.Component {
                                         <span>Contactez-nous dès aujourd'hui pour améliorer votre équipement et vos fournitures médicales !</span>
                                     </div>
                                 </div>
-                                <div className="col-md-4 col-sm-4">
+                                <div className="col-md-4 col-sm-4  footer-dark">
                                     <div className="call-to-action-right">
                                     <div className="tp-caption tp-resizeme" id="slide-902-layer-6" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['90','90','90','130']" data-lineheight="['none','none','none','none']" data-width="['300','300','300','300']" data-height="['none','none','none','none']" data-whitespace="['normal','normal','normal','normal']" data-type="text" data-responsive_offset="on" data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:1000;&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000;&quot;to&quot;:&quot;auto:auto;&quot;,&quot;mask&quot;:&quot;x:0;y:0;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]" data-textalign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style={{ zIndex: 100, textTransform: 'uppercase', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     <NavLink to="/contactus" className="site-button btn-effect">Nous contacter</NavLink>
@@ -84,8 +85,8 @@ class Footer extends React.Component {
                                         <h4 className="widget-title">Côte d'Ivoire</h4>
                                         <ul className="widget_address">
                                             <li>Marcory Av. de Côte d’Ivoire, Abidjan,Côte d’Ivoire</li>
-                                            <li><a href="mailto:Info@triadci.com" style={{color:'#859799'}}>Info@triadci.com</a></li>
-                                            <li> <a href='tel: +225 27 21 56 63 32' style={{color:'#859799'}}>+225 27 21 56 63 32</a></li>
+                                            <li><a href="mailto:Info@triadci.com" style={{color:'#4a4a4a'}}>Info@triadci.com</a></li>
+                                            <li> <a href='tel: +225 27 21 56 63 32' style={{color:'#4a4a4a'}}>+225 27 21 56 63 32</a></li>
                                             {/* <li>(+298) 146-6543-480</li>     */}
                                         </ul>
                                     </div>
@@ -95,8 +96,8 @@ class Footer extends React.Component {
                                         <h4 className="widget-title">Mali</h4>
                                         <ul className="widget_address">
                                             <li>Hamdallaye, commune IV, Bamako, Mali</li>
-                                            <li><a href="mailto:Info@triamedml.com" style={{color:'#859799'}}>Info@triamedml.com</a></li>
-                                            <li> <a href='tel: +223 93 91 00 00' style={{color:'#859799'}}>+223 93 91 00 00</a></li>
+                                            <li><a href="mailto:Info@triamedml.com" style={{color:'#4a4a4a'}}>Info@triamedml.com</a></li>
+                                            <li> <a href='tel: +223 93 91 00 00' style={{color:'#4a4a4a'}}>+223 93 91 00 00</a></li>
                                             {/* <li>(+298) 146-6543-480</li> */}
                                         </ul>
                                     </div>
@@ -121,12 +122,12 @@ class Footer extends React.Component {
                         </div>
                     </div>
                     {/* FOOTER COPYRIGHT */}
-                    <div className="footer-bottom overlay-wraper">
+                    <div className="footer-bottom overlay-wraper " style={{backgroundColor:'#75BF44'}}>
                         <div className="overlay-main" />
                         <div className="container">
                             <div className="row">
                                 <div className="mt-footer-bot-center">
-                                  <a href='http://brightmedia.tech/'>   <span className="copyrights-text">© 2025 Triadco. Designed By Bright Media</span></a>
+                                  <a href='http://brightmedia.tech/' target='_blank'> <span className="copyrights-text" > © 2025 Triadco. Designed By </span>  <span className="copyrights-text" style={{color:'white'}}>Bright Media</span></a>
                                 </div>
                             </div>
                         </div>
